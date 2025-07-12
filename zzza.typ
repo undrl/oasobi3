@@ -1,6 +1,6 @@
 #set page(
   width:5cm,
-  height:5cm,
+  height:10cm,
   margin:10pt,
 )
 // #set text(10pt)
@@ -16,7 +16,9 @@
 #show "。":box.with(inset:(top:-0.5em,bottom:0.5em))
 #show regex("[ぁぃぅぇぉゃゅょゎァィゥェォャュョヮヵヶ]"):box.with(inset:(right:-0.1em,top:-0.1em,bottom:0.1em))
 #show "っ":box.with(inset:(right:-0.2em,top:-0.1em,bottom:0.1em))
-#show regex("[<>]"):it=>box(inset:(right:0em,y:-0.2em),rotate(90deg,scale(x:90%,y:250%,it)))
+#show "<":"＜"
+#show ">":"＞"
+#show regex("[＜＞]"):it=>box(inset:(right:0em,y:-0.1em),rotate(90deg,scale(x:60%,y:100%,it)))
 #show "ー":it=>rotate(90deg,it)
 
 #state("pos").update((x:0pt,y:0pt))
@@ -64,3 +66,4 @@
 = たてたてがき
 さしすせそ
 \<無能\>
+＜あああ＞
