@@ -1,0 +1,119 @@
+{
+    "todo-tree.tree.scanMode": "workspace only",
+    // "editor.tokenColorCustomizations": {
+    //   "comments": {
+    //       "foreground": "#d44848"
+    //   },
+    //   "functions": "#71d2f8",
+    //   "keywords": "#dbf",
+    //   "numbers": "#9db6e3",
+    //   "strings": "#df8",
+    //   "types": "#fb6",
+    //   "variables": "#f18cac"
+    // },
+    // "git.openRepositoryInParentFolders": "never",
+    // "git.confirmSync": false,
+    // "git.enableSmartCommit": true,
+  
+    // "workbench.colorCustomizations": {
+    //   //> editor: 真ん中のコードエリア
+    //   "editor.background": "#0e191bfc", // エディタの背景色
+    //   "editorStickyScroll.background": "#343947", // スクロール時に上部に固定されるヘッダー部分の背景色
+  
+    //   //> breadcrumb: エディタ上部のパス（パンくずリスト）
+    //   "breadcrumb.foreground": "#a2d1ea", // パンくずリストの通常の文字色
+    //   "breadcrumb.background": "#333333", // パンくずリスト全体の背景色
+    //   "breadcrumb.focusForeground": "#32ee61", // フォーカスされた（キーボードで選択中の）アイテムの文字色
+    //   "breadcrumb.activeSelectionForeground": "#171b18", // 選択されているアイテム（現在開いているファイルなど）の文字色
+    //   "breadcrumbPicker.background": "#2b412e", // パンくずリストをクリックしたときに表示されるポップアップの背景色
+  
+    //   //> menu: 上部メニューバーの項目（File, Editなど）
+    //   "menu.background": "#130d1c", // メニューの背景色
+    //   "menu.border": "#544b7f", // メニューの境界線色
+    //   "menu.foreground": "#ffffff", // メニューの文字色
+    //   "menu.selectionBackground": "#200932a1", // 選択中のメニュー項目の背景色
+    //   "menu.selectionBorder": "#ffffff", // 選択中のメニュー項目の枠線
+    //   "menu.selectionForeground": "#ffffff", // 選択中のメニュー項目の文字色
+    //   "menu.separatorBackground": "#84778b", // メニューの区切り線の色
+  
+    //   //> menubar: メニューを含むバー（アプリ上部）
+    //   "menubar.selectionBackground": "#a9f3cb64", // メニューバーでマウスホバーしたときの背景色
+    //   "menubar.selectionBorder": "#0004ff", // メニューバー選択時の枠線
+    //   "menubar.selectionForeground": "#ffffff", // メニューバー選択時の文字色
+  
+    //   //> title bar: 最上部、ウィンドウタイトル部分
+    //   "titleBar.activeBackground": "#062317", // アクティブウィンドウのタイトルバーの背景色
+    //   "titleBar.activeForeground": "#ffffff", // アクティブウィンドウのタイトルバーの文字色
+    //   "titleBar.border": "#306a4a", // タイトルバーとエディタ領域の境界線
+  
+    //   //> activity bar: 左側の縦アイコンバー（ファイル・検索・Git等）
+    //   "activityBar.background": "#3a3947", // アクティビティバー全体の背景色
+    //   "activityBar.foreground": "#ededf6", // アクティビティバーのアイコンなどの基本文字色
+    //   "activityBar.activeBackground": "#613975", // アクティブ（選択中）のアイコン背景色
+    //   "activityBar.activeFocusBorder": "#15b897", // アクティブなアイコンにフォーカスがあるときの枠線
+    //   "activityBar.inactiveForeground": "#9984b3", // 非アクティブなアイコンの文字色
+    //   "activityBarBadge.background": "#0078d4", // アイコンバッジ（通知など）の背景色
+    //   "activityBar.border": "#a4a4a5", // アクティビティバーの右端の境界線
+  
+    //   //> button: ボタン全般（拡張機能のインストールなど）
+    //   "button.background": "#373770", // ボタンの背景色
+  
+    //   //> badge: 通知バッジ（数値表示など）
+    //   "badge.background": "#144c1e", // バッジの背景色
+  
+    //   //> side bar: 左側のエクスプローラ（フォルダやファイルのリスト）
+    //   "sideBar.background": "#1b222f", // サイドバー全体の背景色
+    //   "sideBar.foreground": "#e9f5f9", // サイドバー内の文字色
+    //   "sideBar.border": "#5f5f6d", // サイドバーの境界線色
+    //   "sideBarSectionHeader.background": "#454e45", // サイドバー内のセクションヘッダー（例: OPEN EDITORS）の背景色
+    //   "sideBarSectionHeader.foreground": "#fce4fc", // セクションヘッダーの文字色
+    //   "sideBarTitle.background": "#1a353a", // サイドバーのタイトル領域背景色
+    //   "sideBarTitle.foreground": "#ffffff", // サイドバーのタイトル文字色
+  
+    //   //> status bar: 一番下のバー（分岐、言語モード、Git情報など）
+    //   "statusBar.background": "#163426", // ステータスバーの背景色（通常時）
+    //   "statusBar.foreground": "#f9e9e9", // ステータスバーの文字色
+    //   "statusBar.noFolderBackground": "#11113b", // フォルダを開いていない状態のステータスバー背景
+    //   "statusBar.debuggingBackground": "#030322", // デバッグ中のステータスバー背景
+    //   "statusBar.border": "#0a0a3b", // ステータスバーの上部境界線
+  
+    //   //> tab bar: エディタのタブ（開いているファイルが並ぶ部分）
+    //   "editorGroupHeader.tabsBackground": "#0d57a2fb", // タブバー全体の背景色
+    //   "tab.activeBackground": "#310900", // アクティブなタブの背景色
+    //   "tab.activeForeground": "#e3d6d6", // アクティブなタブの文字色
+    //   "tab.border": "#388d54", // タブの境界線
+    //   "tab.activeBorder": "#f4f4f5", // アクティブなタブの下ボーダー
+    //   "tab.inactiveBackground": "#0a0e1a91", // 非アクティブなタブの背景色
+    //   "tab.inactiveForeground": "#ffffff", // 非アクティブなタブの文字色
+    //   "tab.unfocusedActiveBackground": "#0e3736", // 非フォーカス時のアクティブタブ背景
+    //   "tab.unfocusedInactiveBackground": "#0a0e1a91", // 非フォーカス時の非アクティブタブ背景
+      
+    //   "banner.background":"#8b1010",
+  
+    //   "panel.background":"#161821",
+    //   "panelSection.border":"#d6caca",
+    //   "outputView.background":"#322d2d",
+    //   "panelSectionHeader.background":"#7846db33",
+    //   "panelTitle.inactiveForeground":"#da5252",
+    //   "terminal.foreground": "#c6c8d1",
+    //   "terminal.background": "#161821",
+    //   "terminal.ansiBlack": "#1e2132",
+    //   "terminal.ansiBlue": "#84a0c6",
+    //   "terminal.ansiCyan": "#89b8c2",
+    //   "terminal.ansiGreen": "#b4be82",
+    //   "terminal.ansiMagenta": "#a093c7",
+    //   "terminal.ansiRed": "#e27878",
+    //   "terminal.ansiWhite": "#c6c8d1",
+    //   "terminal.ansiYellow": "#e2a478",
+    //   "terminal.ansiBrightBlack": "#6b7089",
+    //   "terminal.ansiBrightBlue": "#91acd1",
+    //   "terminal.ansiBrightCyan": "#95c4ce",
+    //   "terminal.ansiBrightGreen": "#c0ca8e",
+    //   "terminal.ansiBrightMagenta": "#ada0d3",
+    //   "terminal.ansiBrightRed": "#e98989",
+    //   "terminal.ansiBrightWhite": "#d2d4de",
+    //   "terminal.ansiBrightYellow": "#e9b189",
+    //   "terminal.selectionBackground": "#272C42",
+    //   "terminalCursor.foreground": "#cbf0cb"
+    // }
+}
