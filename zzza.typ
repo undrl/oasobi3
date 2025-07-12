@@ -28,7 +28,16 @@
     y:0pt)
   )
 }
+#show pagebreak:it=>{
+  it
+  state("pos").update(dic=>(
+    x:0pt,
+    y:0pt)
+  )
+}
 あいうえおかきくけこ\
 たちつてと
 
 なにぬねの
+#pagebreak()
+さしすせそ
