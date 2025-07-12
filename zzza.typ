@@ -5,26 +5,26 @@
 )
 #let tracking=0.2em
 #let fli=1em
-#let leading=0.65em
-#let spacing=1em
+#let leading=1.1em
+#let spacing=1.65em
 #set place(right+top)
 #state("pos").update((x:0pt,y:0pt))
 #show regex("[\w]"):it=>context{
   let temp=measure(it)
   let pos=state("pos").get()
-  place(it,dy:pos.y)
+  place(it,dx:pos.x,dy:pos.y)
   state("pos").update(dic=>{(x:dic.x,y:dic.y+temp.height+tracking)})
 }
 #show linebreak:it=>context {
   state("pos").update(dic=>(
-    x:dic.x+leading,
+    x:dic.x - leading,
     y:0pt)
   )
 }
 
 #show parbreak:it=>context{
   state("pos").update(dic=>(
-    x:dic.x+spacing,
+    x:dic.x - spacing,
     y:0pt)
   )
 }
