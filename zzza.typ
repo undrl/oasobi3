@@ -16,13 +16,9 @@
   state("pos").update(dic=>{(x:dic.x,y:dic.y+temp.height+tracking)})
 }
 
-#show heading:it=>context{
-  let temp=measure(it)
-  let pos=state("pos").get()
-  place(it.body,dx:pos.x,dy:pos.y)
-  state("pos").update(dic=>(
-    x:dic.x - 2em -temp.width,
-    y:0pt))
+#show heading:it=>{
+  it.body
+  parbreak() 
 }
 
 #show linebreak:it=>context {
