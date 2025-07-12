@@ -15,5 +15,20 @@
   place(it,dy:pos.y)
   state("pos").update(dic=>{(x:dic.x,y:dic.y+temp.height+tracking)})
 }
+#show linebreak:it=>context {
+  state("pos").update(dic=>(
+    x:dic.x+leading,
+    y:0pt)
+  )
+}
 
-あいうえおかきくけこたちつてと
+#show parbreak:it=>context{
+  state("pos").update(dic=>(
+    x:dic.x+spacing,
+    y:0pt)
+  )
+}
+あいうえおかきくけこ\
+たちつてと
+
+なにぬねの
