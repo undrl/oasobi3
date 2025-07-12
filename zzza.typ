@@ -16,10 +16,11 @@
 #show "。":box.with(inset:(top:-0.5em,bottom:0.5em))
 #show regex("[ぁぃぅぇぉゃゅょゎァィゥェォャュョヮヵヶ]"):box.with(inset:(right:-0.1em,top:-0.1em,bottom:0.1em))
 #show "っ":box.with(inset:(right:-0.2em,top:-0.1em,bottom:0.1em))
-#show regex("[\p{Open_Punctuation}\p{Close_Punctuation}]"):it=>box(inset:(right:0.24em,y:-0.2em),rotate(90deg,it))
+#show regex("[<>]"):it=>box(inset:(right:0em,y:-0.2em),rotate(90deg,scale(x:90%,y:250%,it)))
+#show "ー":it=>rotate(90deg,it)
 
 #state("pos").update((x:0pt,y:0pt))
-#show regex("[\w]"):it=>context{
+#show regex("[\w,.ー!?、。！？\p{Open_Punctuation}\p{Close_Punctuation}<>＜＞a-zA-Z]"):it=>context{
   let temp=measure(it)
   let pos=state("pos").get()
   place(it,dx:pos.x,dy:pos.y)
@@ -62,3 +63,4 @@
 #pagebreak()
 = たてたてがき
 さしすせそ
+\<無能\>
