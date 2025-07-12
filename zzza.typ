@@ -3,6 +3,7 @@
   height:5cm,
   margin:10pt,
 )
+// #set text(10pt)
 #let tracking=0.2em
 #let fli=1em
 #let leading=1.1em
