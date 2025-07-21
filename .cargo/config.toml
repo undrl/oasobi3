@@ -1,7 +1,11 @@
 [alias]
-mywasm2="build --release --manifest-path mywasm2/Cargo.toml"
+#general
 br="build --release"
 
+#shorthand for local
+mywasm2="build --release --manifest-path mywasm2/Cargo.toml"
+
+
 [build]
+#exeからなんかに変える
 target = "wasm32-unknown-unknown"
-# manifest-path="mywasm2/Cargo.toml"
