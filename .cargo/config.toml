@@ -1,5 +1,6 @@
 [alias]
-mycom="build --release --manifest-path mywasm2/Cargo.toml"
+mywasm2="build --release --manifest-path mywasm2/Cargo.toml"
+br="build --release"
 
 [build]
 target = "wasm32-unknown-unknown"
