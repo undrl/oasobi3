@@ -1,7 +1,7 @@
 [alias]
 #general
 br="build --release"
-
+mybot="build --manifest-path mybot"
 #shorthand for local
 mywasm2="build --release --manifest-path mywasm2/Cargo.toml"
 
