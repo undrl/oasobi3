@@ -1,11 +1,11 @@
 [alias]
 #general
 br="build --release"
-mybot="build --manifest-path mybot"
+mybot="run --release --manifest-path mybot/Cargo.toml"
 #shorthand for local
 mywasm2="build --release --manifest-path mywasm2/Cargo.toml"
-
-
+mytest="run --manifest-path mytest/Cargo.toml"
+mytest2="run --release --manifest-path mytest2/Cargo.toml"
 [build]
 #exeからなんかに変える
 # target = "wasm32-unknown-unknown"
